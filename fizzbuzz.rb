@@ -3,7 +3,7 @@ if buzz % 3 == 0
   "Fizz"
 else buzz % 5 == 0
     "Buzz"
-  elsif 
+  elsif
     "FizzBuzz"
   end
 end
