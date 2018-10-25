@@ -1,9 +1,11 @@
 def fizzbuzz(buzz)
   if buzz % 3 == 0
   "Fizz"
-else buzz % 5 == 0
+elsif 
+   buzz % 5 == 0
     "Buzz"
-  else (buzz % 3 == 0) || (buzz % 5 == 0)
+  elsif condition
+     (buzz % 3 == 0) || (buzz % 5 == 0)
     "FizzBuzz"
   end
 end
