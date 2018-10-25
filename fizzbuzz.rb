@@ -4,7 +4,7 @@ def fizzbuzz(buzz)
 elsif
    buzz % 5 == 0
     "Buzz"
-  elsif 
+  elsif
      (buzz % 3 == 0) && (buzz % 5 == 0)
     "FizzBuzz"
   end
