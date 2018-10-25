@@ -1,10 +1,9 @@
 def fizzbuzz(buzz)
-  if (number % 5 == 0) && (number % 3 == 0)
-"FizzBuzz"
-elsif condition
-   buzz % 3 == 0
+  if buzz % 3 == 0
   "Fizz"
 else buzz % 5 == 0
     "Buzz"
+  else (buzz % 5 == 0) && (buzz % 3 == 0)
+    "FizzBuzz"
   end
 end
