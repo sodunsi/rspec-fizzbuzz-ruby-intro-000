@@ -1,7 +1,7 @@
 def fizzbuzz(buzz)
   if buzz % 3 == 0
   "Fizz"
-elsif 
+elsif
    buzz % 5 == 0
     "Buzz"
   elsif condition
