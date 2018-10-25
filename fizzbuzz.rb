@@ -7,3 +7,4 @@ else buzz % 5 == 0
     "FizzBuzz"
   end
 end
+end
