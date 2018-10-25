@@ -3,7 +3,7 @@ def fizzbuzz(buzz)
   "Fizz"
 else buzz % 5 == 0
     "Buzz"
-  else (buzz % 3 == 0) && (buzz % 5 == 0)
+  else (buzz % 3 == 0) || (buzz % 5 == 0)
     "FizzBuzz"
   end
 end
